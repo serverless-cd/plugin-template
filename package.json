@@ -27,5 +27,15 @@
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
     "typescript": "^4.9.5"
+  },
+  "inputs": {
+    "token": {
+      "required": true,
+      "description": "token"
+    },
+    "message": {
+      "required": false,
+      "description": "message"
+    }
   }
 }

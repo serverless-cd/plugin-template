@@ -1,7 +1,8 @@
 import { Logger, getInputs } from '@serverless-cd/core';
+import { IInputs } from './types';
 
 export async function run(
-  inputs: Record<string, any>,
+  inputs: IInputs,
   context: Record<string, any>,
   logger: Logger,
 ) {
